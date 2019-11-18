@@ -21,6 +21,12 @@ public class WelcomeController {
         return "index";
     }
 
+    @GetMapping("/signup")
+    public String signUp(Model model) {
+        logger.debug("New account");
+        return "signUp";
+    }
+
     private String getMessage() {
         return "Hello World";
     }

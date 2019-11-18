@@ -1,0 +1,42 @@
+body {
+    overflow: hidden;
+    background-color: #cedeeb;
+}
+
+a {
+    color: #4656a6;
+}
+
+h2 {
+    color: #4656a6;
+}
+
+.login-form {
+    width: 340px;
+    margin: 200px auto;
+}
+
+.login-form form {
+    margin-bottom: 15px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 1px #c2c2c2;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.login-form h2 {
+    margin: 0 0 15px;
+}
+
+.form-control,
+.btn {
+    min-height: 38px;
+    border-radius: 20px;
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #cc1b58;
+    color: #ffffff;
+}

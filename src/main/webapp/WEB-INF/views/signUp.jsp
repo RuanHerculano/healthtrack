@@ -1,11 +1,11 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Track</title>
-    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="<c:url value="./../assets/favicon.ico" />" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -22,13 +22,10 @@
     </style>
 </head>
 <body>
-<%--<h1>${msg}</h1>--%>
-<%--<h2>Today is <fmt:formatDate value="${today}" pattern="yyy-MM-dd"/></h2>--%>
-
 <div class="container-fluid">
     <ul class="nav float-left">
         <li class="nav-item" style="margin-top: 5px">
-            <img src="<jsp:include page="../assets/logo.png" />" alt="">
+            <img src="./../assets/logo64x64.png" alt="">
         </li>
         <li class="nav-item" style="margin-top: 5px">
             <a class="nav-link active" href="#">Health Track</a>
@@ -39,32 +36,35 @@
             <a class="nav-link active" href="#">Sobre</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Cadastrar</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Cadastrar</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Entrar</a>
+            <a class="nav-link" href="./../index.html">Entrar</a>
         </li>
     </ul>
 </div>
 <div class="login-form">
-    <form action="/" method="post">
-        <h2 class="text-center">Entrar</h2>
+    <form action="./../index.html" method="post">
+        <h2 class="text-center">Cadastrar</h2>
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="Usuário" required="required">
+            <input type="text" class="form-control" placeholder="Nome" required="required">
         </div>
         <div class="form-group">
-            <input type="password" class="form-control" placeholder="Senha" required="required">
+            <input type="text" class="form-control" placeholder="Sobrenome" required="required">
         </div>
         <div class="form-group">
-            <button type="submit" class="btn btn-block">Entrar</button>
+            <input type="text" class="form-control" placeholder="Email" required="required">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Senha" required="required">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" placeholder="Confirma senha" required="required">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-block">Cadastrar</button>
         </div>
     </form>
-    <p class="text-center">
-        <a href="#">
-            Cadastrar
-        </a>
-    </p>
 </div>
-
 </body>
 </html>
