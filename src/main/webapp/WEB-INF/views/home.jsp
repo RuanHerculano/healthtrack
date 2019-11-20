@@ -25,7 +25,7 @@
 <div class="container-fluid">
     <ul class="nav float-left">
         <li class="nav-item" style="margin-top: 5px">
-            <img src="./../assets/logo.png" alt="">
+            <img src="<jsp:include page="../assets/logo.png" />" alt="">
         </li>
         <li class="nav-item" style="margin-top: 5px">
             <a class="nav-link active" href="#">Health Track</a>
@@ -39,7 +39,7 @@
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Cadastrar</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/">Entrar</a>
+            <a class="nav-link" href="./../index.html">Entrar</a>
         </li>
     </ul>
 </div>
@@ -65,11 +65,6 @@
             <button type="submit" class="btn btn-block">Cadastrar</button>
         </div>
     </form>
-    <p class="text-center">
-        <a href="/">
-            Entrar
-        </a>
-    </p>
 </div>
 </body>
 </html>

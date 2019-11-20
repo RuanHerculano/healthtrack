@@ -1,11 +1,10 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page contentType="text/html; charset=UTF-8" %>
 <html>
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Track</title>
-    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -39,7 +38,7 @@
             <a class="nav-link active" href="#">Sobre</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Cadastrar</a>
+            <a class="nav-link" href="/signup">Cadastrar</a>
         </li>
         <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Entrar</a>
@@ -60,7 +59,7 @@
         </div>
     </form>
     <p class="text-center">
-        <a href="#">
+        <a href="/signup">
             Cadastrar
         </a>
     </p>
