@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Track</title>
-    <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -16,9 +16,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
-    <style type="text/css">
-        <%@include file="./../css/index.css" %>
-    </style>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/index.css">
 </head>
 <body>
 <%--<h1>${msg}</h1>--%>
@@ -27,7 +25,7 @@
 <div class="container-fluid">
     <ul class="nav float-left">
         <li class="nav-item" style="margin-top: 5px">
-            <img src="<jsp:include page="../assets/logo.png" />" alt="">
+            <img src="${pageContext.request.contextPath}/resources/assets/logo.png" alt="">
         </li>
         <li class="nav-item" style="margin-top: 5px">
             <a class="nav-link active" href="#">Health Track</a>

@@ -27,6 +27,12 @@ public class WelcomeController {
         return "signUp";
     }
 
+    @GetMapping("/home")
+    public String home(Model model) {
+        logger.debug("Home");
+        return "home";
+    }
+
     private String getMessage() {
         return "Hello World";
     }
