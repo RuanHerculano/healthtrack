@@ -30,9 +30,6 @@
     </ul>
     <ul class="nav justify-content-end">
         <li class="nav-item">
-            <a class="nav-link active" href="#">Sobre</a>
-        </li>
-        <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Cadastrar</a>
         </li>
         <li class="nav-item">

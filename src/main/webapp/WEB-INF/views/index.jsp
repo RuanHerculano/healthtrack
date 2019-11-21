@@ -33,9 +33,6 @@
     </ul>
     <ul class="nav justify-content-end">
         <li class="nav-item">
-            <a class="nav-link active" href="#">Sobre</a>
-        </li>
-        <li class="nav-item">
             <a class="nav-link" href="/signup">Cadastrar</a>
         </li>
         <li class="nav-item">
@@ -44,13 +41,13 @@
     </ul>
 </div>
 <div class="login-form">
-    <form action="/" method="post">
+    <form action="/signin" method="POST">
         <h2 class="text-center">Entrar</h2>
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="Usuário" required="required">
+            <input type="text" name="email" class="form-control" placeholder="Email" required="required">
         </div>
         <div class="form-group">
-            <input type="password" class="form-control" placeholder="Senha" required="required">
+            <input type="password" name="password" class="form-control" placeholder="Senha" required="required">
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-block">Entrar</button>
