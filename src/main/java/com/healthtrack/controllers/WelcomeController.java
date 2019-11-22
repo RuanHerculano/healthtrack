@@ -21,13 +21,6 @@ public class WelcomeController {
         return "index";
     }
 
-    @PostMapping(value = "/signin", consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE)
-    public String signIn(@RequestParam("email") String email, @RequestParam("password") String password) {
-        System.out.println("Meeeeeeeeeeeeeeeeeeeeeee");
-        System.out.println(email);
-        return "index";
-    }
-
     @GetMapping("/home")
     public String home(Model model) {
         logger.debug("Home");
