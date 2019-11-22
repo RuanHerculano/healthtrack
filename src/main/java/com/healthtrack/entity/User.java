@@ -1,13 +1,33 @@
 package com.healthtrack.entity;
 
+import javax.persistence.*;
 import java.time.LocalDateTime;
 
+@Entity
+@Table(name="users")
 public class User {
+
+    @Id
+    @GeneratedValue
+    @Column(name="id")
+    long id = 0;
+
+    @Column(name="name")
     private String name = "";
+
+    @Column(name="email")
     private String email = "";
+
+    @Column(name="height")
     private Double height = 0.0;
+
+    @Column(name="password")
     private String password = "";
+
+    @Column(name="created_at")
     private LocalDateTime createdAt = LocalDateTime.now();
+
+    @Column(name="updated_at")
     private LocalDateTime updatedAt = LocalDateTime.now();
 
     public User(String name, String email, Double height, String password) {
@@ -15,6 +35,14 @@ public class User {
         this.email = email;
         this.height = height;
         this.password = password;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getName() {
