@@ -25,7 +25,7 @@
             <img src="${pageContext.request.contextPath}/resources/assets/logo.png" alt="">
         </li>
         <li class="nav-item" style="margin-top: 5px">
-            <a class="nav-link active" href="#">Health Track</a>
+            <a class="nav-link active" href="/">Health Track</a>
         </li>
     </ul>
     <ul class="nav justify-content-end">
@@ -50,7 +50,7 @@
             <input type="text" name="email" class="form-control" placeholder="Email" required="required">
         </div>
         <div class="form-group">
-            <input type="text" name="password" class="form-control" placeholder="Senha" required="required">
+            <input type="password" name="password" class="form-control" placeholder="Senha" required="required">
         </div>
         <div class="form-group">
             <input type="password" name="passwordConfirmation" class="form-control" placeholder="Confirma senha" required="required">

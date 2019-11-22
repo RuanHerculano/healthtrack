@@ -26,7 +26,7 @@
             <img src="${pageContext.request.contextPath}/resources/assets/logo.png" alt="">
         </li>
         <li class="nav-item" style="margin-top: 5px">
-            <a class="nav-link active" href="#">Health Track</a>
+            <a class="nav-link active" href="/home">Health Track</a>
         </li>
     </ul>
     <ul class="nav justify-content-end">
