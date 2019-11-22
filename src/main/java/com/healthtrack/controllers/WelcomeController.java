@@ -21,12 +21,6 @@ public class WelcomeController {
         return "index";
     }
 
-    @GetMapping("/home")
-    public String home(Model model) {
-        logger.debug("Home");
-        return "home";
-    }
-
     private String getMessage() {
         return "Hello World";
     }
