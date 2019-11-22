@@ -18,7 +18,7 @@ public class WelcomeController {
         logger.debug("Welcome to healthtrack.com...");
 //        model.addAttribute("msg", getMessage());
 //        model.addAttribute("today", new Date());
-        return "index";
+        return "signIn";
     }
 
     private String getMessage() {

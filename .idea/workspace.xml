@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfee9450-4bb4-4f3d-9550-dd7ef9f47d43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/healthtrack/controllers/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthtrack/controllers/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthtrack/controllers/SignInController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/healthtrack/controllers/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthtrack/controllers/SignUpController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/healthtrack/controllers/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthtrack/controllers/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/signIn.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +100,7 @@
       <workItem from="1574277923200" duration="11244000" />
       <workItem from="1574374301929" duration="2643000" />
       <workItem from="1574392553750" duration="3298000" />
-      <workItem from="1574431807062" duration="1647000" />
+      <workItem from="1574431807062" duration="2206000" />
     </task>
     <servers />
   </component>
