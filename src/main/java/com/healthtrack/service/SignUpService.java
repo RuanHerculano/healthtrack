@@ -8,15 +8,15 @@ import org.springframework.stereotype.Service;
 public class SignUpService {
 
     @Autowired
-    UserRepository repository;
+    private UserRepository userRepository;
 
-    public User create(
+    public void create(
             String name,
             String email,
             Double height,
             String password) {
 
         User user = new User(name, email, height, password);
-        return repository.save(user);
+        userRepository.save(user);
     }
 }

@@ -7,6 +7,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/healthtrack/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthtrack/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/healthtrack/service/SignInService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthtrack/service/SignInService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/healthtrack/service/SignUpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/healthtrack/service/SignUpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/healthtrack/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/healthtrack/config/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +140,7 @@
       <workItem from="1574374301929" duration="2643000" />
       <workItem from="1574392553750" duration="3298000" />
       <workItem from="1574431807062" duration="2402000" />
-      <workItem from="1574449528711" duration="8421000" />
+      <workItem from="1574449528711" duration="10962000" />
     </task>
     <servers />
   </component>
