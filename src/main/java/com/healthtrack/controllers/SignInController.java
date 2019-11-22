@@ -1,5 +1,6 @@
 package com.healthtrack.controllers;
 
+import com.healthtrack.business.SignInBusiness;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,8 +17,8 @@ public class SignInController {
 
     @PostMapping(value = "/signin", consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE)
     public String signIn(@RequestParam("email") String email, @RequestParam("password") String password) {
-        System.out.println("Meeeeeeeeeeeeeeeeeeeeeee");
-        System.out.println(email);
+        SignInBusiness signInBusiness = new SignInBusiness();
+        signInBusiness.create(email, password);
         return "home";
     }
 }

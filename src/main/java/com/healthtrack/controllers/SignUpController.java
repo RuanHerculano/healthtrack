@@ -3,6 +3,7 @@ package com.healthtrack.controllers;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import com.healthtrack.business.SignUpBusiness;
 
 @Controller
 public class SignUpController {
@@ -17,14 +18,11 @@ public class SignUpController {
             @RequestParam("firstName") String firstName,
             @RequestParam("lastName") String lastName,
             @RequestParam("email") String email,
-            @RequestParam("password") String password,
-            @RequestParam("passwordConfirmation") String passwordConfirmation) {
+            @RequestParam("height") Double height,
+            @RequestParam("password") String password) {
 
-        System.out.println(firstName);
-        System.out.println(lastName);
-        System.out.println(email);
-        System.out.println(password);
-        System.out.println(passwordConfirmation);
+        SignUpBusiness signUpBusiness = new SignUpBusiness();
+        signUpBusiness.create(firstName, lastName, email, height, password);
 
         return "home";
     }

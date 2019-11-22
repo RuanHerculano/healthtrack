@@ -53,7 +53,7 @@
             <input type="password" name="password" class="form-control" placeholder="Senha" required="required">
         </div>
         <div class="form-group">
-            <input type="password" name="passwordConfirmation" class="form-control" placeholder="Confirma senha" required="required">
+            <input type="password" class="form-control" placeholder="Confirma senha" required="required">
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-block">Cadastrar</button>

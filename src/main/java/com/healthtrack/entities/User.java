@@ -3,26 +3,36 @@ package com.healthtrack.entities;
 import java.time.LocalDateTime;
 
 public class User {
-    private String name = "";
+    private String firstName = "";
+    private String lastName = "";
     private String email = "";
     private Double height = 0.0;
     private String password = "";
     private LocalDateTime createdAt = LocalDateTime.now();
     private LocalDateTime updatedAt = LocalDateTime.now();
 
-    public User(String name, String email, Double height, String password) {
-        this.name = name;
+    public User(String firstName, String lastName, String email, Double height, String password) {
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.email = email;
         this.height = height;
         this.password = password;
     }
 
-    public String getName() {
-        return name;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getEmail() {
