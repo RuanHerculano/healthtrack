@@ -3,3 +3,4 @@ com/healthtrack/config/SpringConfig.class
 com/healthtrack/controllers/WelcomeController.class
 com/healthtrack/entities/PhysicalActivity.class
 com/healthtrack/entities/User.class
+com/healthtrack/controllers/SignUpController.class
