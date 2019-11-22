@@ -2,12 +2,11 @@ package com.healthtrack.controllers;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.*;
 import com.healthtrack.entities.User;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 
 @Controller
 public class WelcomeController {
@@ -22,17 +21,11 @@ public class WelcomeController {
         return "index";
     }
 
-    @PostMapping("/signin")
-    public String signIn(@RequestBody User user) {
+    @PostMapping(value = "/signin", consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE)
+    public String signIn(@RequestParam("email") String email, @RequestParam("password") String password) {
         System.out.println("Meeeeeeeeeeeeeeeeeeeeeee");
-        System.out.println(user);
-        return "home";
-    }
-
-    @GetMapping("/signup")
-    public String signUp(Model model) {
-        logger.debug("New account");
-        return "signUp";
+        System.out.println(email);
+        return "index";
     }
 
     @GetMapping("/home")

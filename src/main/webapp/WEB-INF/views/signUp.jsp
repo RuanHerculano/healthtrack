@@ -38,22 +38,22 @@
     </ul>
 </div>
 <div class="login-form">
-    <form action="./../index.html" method="post">
+    <form action="/signup" method="POST">
         <h2 class="text-center">Cadastrar</h2>
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="Nome" required="required">
+            <input type="text" name="firstName" class="form-control" placeholder="Nome" required="required">
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="Sobrenome" required="required">
+            <input type="text" name="lastName" class="form-control" placeholder="Sobrenome" required="required">
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="Email" required="required">
+            <input type="text" name="email" class="form-control" placeholder="Email" required="required">
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="Senha" required="required">
+            <input type="text" name="password" class="form-control" placeholder="Senha" required="required">
         </div>
         <div class="form-group">
-            <input type="password" class="form-control" placeholder="Confirma senha" required="required">
+            <input type="password" name="passwordConfirmation" class="form-control" placeholder="Confirma senha" required="required">
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-block">Cadastrar</button>
