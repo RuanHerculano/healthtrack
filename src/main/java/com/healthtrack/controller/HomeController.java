@@ -1,4 +1,4 @@
-package com.healthtrack.controllers;
+package com.healthtrack.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

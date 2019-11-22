@@ -1,8 +1,11 @@
+/home/ruan/IdeaProjects/healthtrack/src/main/java/com/healthtrack/business/SignInBusiness.java
 /home/ruan/IdeaProjects/healthtrack/src/main/java/com/healthtrack/controllers/WelcomeController.java
 /home/ruan/IdeaProjects/healthtrack/src/main/java/com/healthtrack/controllers/SignInController.java
 /home/ruan/IdeaProjects/healthtrack/src/main/java/com/healthtrack/controllers/SignUpController.java
 /home/ruan/IdeaProjects/healthtrack/src/main/java/com/healthtrack/controllers/HomeController.java
+/home/ruan/IdeaProjects/healthtrack/src/main/java/com/healthtrack/repositories/UserRepository.java
 /home/ruan/IdeaProjects/healthtrack/src/main/java/com/healthtrack/WebInitializer.java
+/home/ruan/IdeaProjects/healthtrack/src/main/java/com/healthtrack/business/SignUpBusiness.java
 /home/ruan/IdeaProjects/healthtrack/src/main/java/com/healthtrack/config/SpringConfig.java
 /home/ruan/IdeaProjects/healthtrack/src/main/java/com/healthtrack/entities/PhysicalActivity.java
 /home/ruan/IdeaProjects/healthtrack/src/main/java/com/healthtrack/entities/User.java

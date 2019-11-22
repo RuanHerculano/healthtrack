@@ -41,13 +41,13 @@
     <form action="/signup" method="POST">
         <h2 class="text-center">Cadastrar</h2>
         <div class="form-group">
-            <input type="text" name="firstName" class="form-control" placeholder="Nome" required="required">
-        </div>
-        <div class="form-group">
-            <input type="text" name="lastName" class="form-control" placeholder="Sobrenome" required="required">
+            <input type="text" step="any" name="name" class="form-control" placeholder="Nome" required="required">
         </div>
         <div class="form-group">
             <input type="text" name="email" class="form-control" placeholder="Email" required="required">
+        </div>
+        <div class="form-group">
+            <input type="text" name="height" class="form-control" placeholder="Altura" required="required">
         </div>
         <div class="form-group">
             <input type="password" name="password" class="form-control" placeholder="Senha" required="required">
